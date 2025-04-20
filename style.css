@@ -236,7 +236,7 @@ footer {
 /* Slider,profile,Visit section End */
 
  /* Gallery Section Start */
- 
+
  .gallery-heading{
   color: #0077b6;
  }
@@ -349,6 +349,64 @@ body {
 
 
 /* Start Responsive */
+
+.carousel-custom-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  bottom: 20%;
+}
+
+.carousel-custom-caption h3,
+.carousel-custom-caption p {
+  color: #fff;
+}
+
+.carousel-custom-caption a.btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-custom-caption {
+    bottom: 8%;
+    /* padding: 8px 12px; */
+    margin-top: 15px;
+  }
+
+  .carousel-custom-caption h3 {
+    font-size: 1rem; /* smaller heading */
+    margin-bottom: 5px;
+  }
+
+  .carousel-custom-caption p {
+    font-size: 0.85rem; /* smaller paragraph */
+    margin-bottom: 8px;
+  }
+
+  .carousel-custom-caption a.btn {
+    font-size: 0.75rem;  /* smaller button text */
+    padding: 4px 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .menu-toggle {
