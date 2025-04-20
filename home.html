@@ -6,6 +6,7 @@
   <title>Dr. Umok</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./script.js">
 </head>
 <body>
   <nav class="text-center">
@@ -61,12 +62,10 @@
 
   <div class="container my-5">
     <div class="profile-hover-box d-flex align-items-center justify-content-between">
-      <!-- Default Image -->
       <div class="profile-img-box">
         <img src="img/dr.jpg" alt="Dr. Umok" class="img-fluid">
       </div>
   
-      <!-- Default Text -->
       <div class="profile-text-box">
         <h3>Dr. Umok</h3>
         <p><strong>Degrees:</strong> MBBS, FCPS, MD</p>
@@ -74,12 +73,10 @@
         <p><strong>Location:</strong> Dhaka, Bangladesh</p>
       </div>
   
-      <!-- Hidden Image on Hover -->
       <div class="hover-img-box">
         <img src="img/dr.jpg" alt="Alternate View" class="img-fluid">
       </div>
-  
-      <!-- Hidden Text on Hover -->
+
       <div class="hover-text-box">
         <h3>Hello, I'm Dr. Umok</h3>
         <p>Dedicated to giving you the best heart care with empathy and professionalism. Your health is my priority.</p>
@@ -95,10 +92,9 @@
   
     <div id="visitCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-  
-        <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="row">
+            <!-- Slide show -->
             <!-- Card 1 -->
             <div class="col-md-4">
               <div class="card h-100">
@@ -140,7 +136,7 @@
           </div>
         </div>
   
-        <!-- Slide 2 -->
+        <!-- Slide hide -->
         <div class="carousel-item">
           <div class="row">
             <!-- Card 4 -->
@@ -222,15 +218,15 @@
         </div>
       </div>
 
-      <!-- Image 3 -->
-      <div class="col-md-4">
-        <div class="gallery-item position-relative">
-          <img src="./img/gallery3.jpg" class="img-fluid" alt="Gallery Image">
-          <div class="overlay">
-            <i class="fas fa-heartbeat overlay-icon"></i>
+         <!-- Image 3 -->
+        <div class="col-md-4">
+          <div class="gallery-item position-relative">
+            <img src="./img/gallery3.jpg" class="img-fluid" alt="Gallery Image">
+            <div class="overlay">
+              <i class="fas fa-heartbeat overlay-icon"></i>
+            </div>
           </div>
         </div>
-      </div>
           <!-- Image 4 -->
           <div class="col-md-4">
             <div class="gallery-item position-relative">
@@ -261,7 +257,6 @@
             </div>
           </div>
       <!-- Add more rows as needed -->
-
     </div>
   </div>
   <!-- Gallery Section End -->
@@ -278,20 +273,22 @@
     </div>
   </div>
   
-  <!-- Location Section End -->
+    <!-- Location Section End -->
+
+    <!-- Footer -->
 
     <footer class="text-center">
       <p>&copy; 2025 Dr. Umok. All rights reserved.</p>
     </footer>
 
 
+
     <script>
-      function toggleMenu() {
+        function toggleMenu() {
         const links = document.querySelector(".menu-links");
         links.classList.toggle("show-menu");
-      }
+       }
     </script>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

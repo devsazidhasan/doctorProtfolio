@@ -121,14 +121,14 @@ footer {
 .text-center .text-white {
    color: black;
 }
-/* Initially hide the heading */
+
 .visit-heading {
   opacity: 0;
   transition: opacity 0.4s ease;
-  pointer-events: none; /* avoid blocking */
+  pointer-events: none; 
 }
 
-/* Show heading when any card is hovered */
+
 .container:hover .visit-heading {
   opacity: 1;
 }
@@ -147,7 +147,7 @@ footer {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease;
-  pointer-events: none; /* Prevent blocking other elements */
+  pointer-events: none;
 }
 
 .carousel:hover .carousel-caption {
@@ -205,7 +205,6 @@ footer {
   text-align: left;
 }
 
-/* Hover Effects */
 .profile-hover-box:hover .profile-img-box {
   transform: translate(100%, -50%);
   opacity: 0;
@@ -237,7 +236,7 @@ footer {
 /* Slider,profile,Visit section End */
 
  /* Gallery Section Start */
-
+ 
  .gallery-heading{
   color: #0077b6;
  }
@@ -282,7 +281,6 @@ footer {
 
 /* Location Section Start  */
 
-/* Hide heading by default */
 .location-heading {
   opacity: 0;
   transform: translateY(-20px);
@@ -295,14 +293,14 @@ footer {
   color: #0077b6;
 }
 
-/* Show heading on hover of the location wrapper */
+
 .location-wrapper:hover .location-heading {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
   pointer-events: auto;
 }
 
-/* Location map styling */
+
 .location-map img {
   width: 100%;
   height: auto;
